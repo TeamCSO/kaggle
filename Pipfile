@@ -1,18 +1,23 @@
- [[source]]
+[[source]]
 url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "==1.21"
+numpy = "*"
 pandas = "*"
-matplotlib = "==3.2.2"
-seaborn = "==0.10"
+matplotlib = "*"
+seaborn = "*"
 scikit-learn = "*"
 lightgbm = "*"
+optuna = "*"
+xgboost = "*"
+pydotplus = "*"
+graphviz = "*"
+six = "*"
 jupyter = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.10"
